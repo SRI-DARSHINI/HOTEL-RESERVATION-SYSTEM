@@ -1,0 +1,41 @@
+/* Container for the whole page */
+.booking-page-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    position: relative;
+  }
+  
+  /* Search container aligned to the right */
+  .search-container {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    display: flex;
+    align-items: center;
+  }
+  
+  /* Styling for the search bar */
+  .search-bar {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 200px;
+  }
+  
+  /* Styling for the search button */
+  .search-button {
+    padding: 10px 15px;
+    margin-left: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .search-button:hover {
+    background-color: #45a049;
+  }
+  
